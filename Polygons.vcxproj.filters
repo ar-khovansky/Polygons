@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="App">
+      <UniqueIdentifier>{eeb8acfc-27b5-418d-96f0-e37af0c1cce0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Polygons">
+      <UniqueIdentifier>{2177c0bc-feaf-47e8-b092-2a3b719d2573}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Poly">
+      <UniqueIdentifier>{6d4c631e-bc6b-4f56-b908-a02d4b4ad682}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib">
+      <UniqueIdentifier>{0eac0d4d-8251-4677-9ffc-69cfb5e02079}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="Polygons.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="PolygonsDoc.h">
+      <Filter>Polygons</Filter>
+    </ClInclude>
+    <ClInclude Include="PolygonsView.h">
+      <Filter>Polygons</Filter>
+    </ClInclude>
+    <ClInclude Include="PolygonsController.h">
+      <Filter>Polygons</Filter>
+    </ClInclude>
+    <ClInclude Include="Poly\Polygon.h">
+      <Filter>Poly</Filter>
+    </ClInclude>
+    <ClInclude Include="Poly\Point.h">
+      <Filter>Poly</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\Math.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Poly\Poly.h">
+      <Filter>Poly</Filter>
+    </ClInclude>
+    <ClInclude Include="Poly\Functions.h">
+      <Filter>Poly</Filter>
+    </ClInclude>
+    <ClInclude Include="Poly\Vector.h">
+      <Filter>Poly</Filter>
+    </ClInclude>
+    <ClInclude Include="Poly\Line.h">
+      <Filter>Poly</Filter>
+    </ClInclude>
+    <ClInclude Include="Poly\Segment.h">
+      <Filter>Poly</Filter>
+    </ClInclude>
+    <ClInclude Include="PointsRecordset.h">
+      <Filter>Polygons</Filter>
+    </ClInclude>
+    <ClInclude Include="Poly\Boolean.h">
+      <Filter>Poly</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\Iterators.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Exceptions.h">
+      <Filter>Polygons</Filter>
+    </ClInclude>
+    <ClInclude Include="PolygonsDoc_Private.h">
+      <Filter>Polygons</Filter>
+    </ClInclude>
+    <ClInclude Include="Actions.h">
+      <Filter>Polygons</Filter>
+    </ClInclude>
+    <ClInclude Include="Events.h">
+      <Filter>Polygons</Filter>
+    </ClInclude>
+    <ClInclude Include="PresentationModel.h">
+      <Filter>Polygons</Filter>
+    </ClInclude>
+    <ClInclude Include="IteratorByIdx.h">
+      <Filter>Polygons</Filter>
+    </ClInclude>
+    <ClInclude Include="IStatusPane.h">
+      <Filter>App</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="Polygons.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="PolygonsDoc.cpp">
+      <Filter>Polygons</Filter>
+    </ClCompile>
+    <ClCompile Include="PolygonsView.cpp">
+      <Filter>Polygons</Filter>
+    </ClCompile>
+    <ClCompile Include="PolygonsController.cpp">
+      <Filter>Polygons</Filter>
+    </ClCompile>
+    <ClCompile Include="Poly\Polygon.cpp">
+      <Filter>Poly</Filter>
+    </ClCompile>
+    <ClCompile Include="Poly\Point.cpp">
+      <Filter>Poly</Filter>
+    </ClCompile>
+    <ClCompile Include="Poly\Functions.cpp">
+      <Filter>Poly</Filter>
+    </ClCompile>
+    <ClCompile Include="Poly\Line.cpp">
+      <Filter>Poly</Filter>
+    </ClCompile>
+    <ClCompile Include="PointsRecordset.cpp">
+      <Filter>Polygons</Filter>
+    </ClCompile>
+    <ClCompile Include="Poly\Boolean.cpp">
+      <Filter>Poly</Filter>
+    </ClCompile>
+    <ClCompile Include="PolygonsDoc_Private.cpp">
+      <Filter>Polygons</Filter>
+    </ClCompile>
+    <ClCompile Include="Actions.cpp">
+      <Filter>Polygons</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Polygons.reg" />
+    <None Include="res\Polygons.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Polygons.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\PolygonsDoc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Polygons.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
