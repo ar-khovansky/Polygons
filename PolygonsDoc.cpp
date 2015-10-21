@@ -30,8 +30,10 @@ class Act_AddPolygon : public Action
 {
 public:
 	/// \param polygon  Polygon to add
-	Act_AddPolygon(poly::Polygon const &polygon) : _polygon(polygon) { ENSURE(! polygon.empty()); }
-	Act_AddPolygon(poly::Polygon      &&polygon) : _polygon(polygon) { ENSURE(! polygon.empty()); }
+	Act_AddPolygon(poly::Polygon &&polygon) {
+		ENSURE(! polygon.empty());
+		_polygon = move(polygon);
+	}
 
 	EventList apply(list<poly::Polygon> &polygons) override
 	{
@@ -281,7 +283,7 @@ EventList BooleanOperation::apply(list<poly::Polygon> &polygons)
 	auto const p1It = polygonIteratorByIdx(polygons, p1Idx);
 	auto const p2It = polygonIteratorByIdx(polygons, p2Idx);
 	
-	vector<poly::Polygon> const result = doOperation(*p1It, *p2It);
+	vector<poly::Polygon> result = doOperation(*p1It, *p2It);
 	
 	
 	vector<Event> events;

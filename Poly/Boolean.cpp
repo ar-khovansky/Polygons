@@ -424,8 +424,8 @@ static void collectContours(list<VertEdge> &xp,
 		Direction dir;
 		if ( ! ve->edgeMark && edgeRule(*ve, true, dir) ) {
 			auto veStart = (dir == Forward ? ve : next_cyclic(ve, xp));
-			Polygon const contour = collectContour(xp, veStart, dir, edgeRule);
-			contours.push_back(contour);
+			Polygon contour = collectContour(xp, veStart, dir, edgeRule);
+			contours.push_back(move(contour));
 		}
 	}
 	

@@ -66,6 +66,10 @@ public:
 
 	Polygon(Polygon &&r) _NOEXCEPT { vertices.swap(r.vertices); }
 
+protected:
+	Polygon(Polygon const &r) = default;
+
+public:
 	Polygon& operator=(Polygon &&r) _NOEXCEPT { vertices.swap(r.vertices); return *this; }
 
 	unsigned int numVertices() const { return vertices.size(); }
